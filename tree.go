@@ -52,7 +52,7 @@ func main() {
     for i := 0; i < 10; i++ {
         fmt.Println(<-ch)
     }
+
     fmt.Println(Same(tree.New(1), tree.New(1)))
-    var i bool
-    fmt.Println(Same(tree.New(1), tree.New(2)), i)
+    fmt.Println(Same(tree.New(1), tree.New(2)))
 }
